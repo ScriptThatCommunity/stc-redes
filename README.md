@@ -5,6 +5,9 @@ Este script sirve para que puedas hacer un comando de /redes y aparezcán tus re
 ```
 start stc-redes
 ```
+
+#### Configuración `(config.lua)`
+
 ##### Redes de ScriptThat Community
 <a href="https://discord.gg/JtcTffs">Discord</a>
 
