@@ -10,32 +10,28 @@ start stc-redes
 
 #### Configuración `(config.lua)`
 ```
-svname = {     
-  svname="TuservidorRP"     -- Aqui va el nombre de tu servidor
-}
+Config = {}
 
-twitter = {     
-  twitter="twitter.com/"      -- Aqui va tu link de twitter
-  }
+--Nombre de tu servidor
+Config.name = "TuservidorRP"
 
-instagram = {     
-  instagram="instagram.com/"     -- Aqui va tu link de instagram
-  }
+-- Activar Redes Sociales
+Config.twitter = true -- Activa/Desactiva Twitter
 
-discord = {     
-  discord="discord.gg/"     -- Aqui va tu link de discord
-  }
+Config.discord = true -- Activa/Desactiva Disccord
 
+Config.instagram = true -- Activa/Desactiva Instagram
 
--- Si quieres añadir otro, puedes poner aqui el link y el nombre 
-other1name = {
-  other1name=""     -- Nombre del otro que quieras añadir | EL NOMBRE DEBE TENER ":" AL FINAL, EJEMPLO "Web:"
-}
-other1link = {
-    other1link=""     -- Link del otro que quieras añadir
-  }
+Config.teamspeak = true -- Activa/Desactiva TeamSpeak
 
--- Si despues quieres añdir más, abrenos un ticket en Discord y te ayudamos
+Config.web = true -- Activa/Desactiva tu página web
+
+-- Enlaces de las redes sociales
+Config.lnktwitter = "twitter.com"
+Config.lnkdiscord = "discord.gg"
+Config.lnkinstagram = "instagram.com"
+Config.lnkteamspeak = "teamspeak-ip"
+Config.lnkweb = "tuweb.com"
 ```
 
 ##### Redes de ScriptThat Community
