@@ -2,7 +2,6 @@
 
 -- Registrar Comando
 RegisterCommand('redes', function()
-    msg("")
     if Config.twitter then
         msg("Twitter: " + Config.lnktwitter)
     end
@@ -18,7 +17,6 @@ RegisterCommand('redes', function()
     if Config.web then
         msg("Web: " + Config.lnkweb)
     end
-    msg("Prueba")
 end, false)
 
 -- Declarar la función 'msg'
